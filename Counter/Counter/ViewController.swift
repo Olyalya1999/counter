@@ -20,6 +20,7 @@ var count = 0
     @IBAction func addItem(_ sender: Any) {
     count = count + 1
         label.text = "\(count)"
+        print ("Значение счетчика \(count)")
     }
     
 }
